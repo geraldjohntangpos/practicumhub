@@ -1,0 +1,167 @@
+/* Custom Stylesheet */
+/**
+ * Use this file to override Materialize files so you can update
+ * the core Materialize files in the future
+ *
+ * Made By MaterializeCSS.com
+ */
+body {
+  background-color: #e9ebee;
+}
+
+nav ul a,
+nav .brand-logo {
+  color: #444;
+}
+
+p {
+  line-height: 2rem;
+}
+
+.button-collapse {
+  color: #26a69a;
+}
+
+.parallax-container {
+  min-height: 380px;
+  line-height: 0;
+  height: auto;
+  color: rgba(255,255,255,.9);
+}
+  .parallax-container .section {
+    width: 100%;
+  }
+
+@media only screen and (max-width : 992px) {
+  .parallax-container .section {
+    position: absolute;
+    top: 40%;
+  }
+  #index-banner .section {
+    top: 10%;
+  }
+}
+
+@media only screen and (max-width : 600px) {
+  #index-banner .section {
+    top: 0;
+  }
+}
+
+.icon-block {
+  padding: 0 15px;
+}
+.icon-block .material-icons {
+  font-size: inherit;
+}
+
+footer.page-footer {
+  margin: 0;
+}
+
+div.section {
+  width: 100%;
+}
+
+h1.center {
+  font-size: 90px;
+}
+
+p.left-align {
+  font-size: 30px;
+  padding: 0px 45px;
+}
+
+img.ourTeamImg {
+  padding: 0px 60px;
+}
+
+div.ourTeam {
+  margin: 0px 100px;
+  padding-top: 25px;
+}
+
+p.memberName {
+  font-size: 24px;
+}
+
+div.signin {
+  background-color: #fff;
+}
+
+body {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+main {
+  flex: 1 0 auto;
+}
+
+div.signin {
+  margin-top: 45px;
+  padding: 45px 30px;
+  width: 450px;
+  border: 0px solid #9a8989;
+  border-radius: 3px;
+}
+
+.withborder {
+  border: .5px solid #9a8989;
+}
+
+.bodycontainer {
+  margin-top: 30px;
+}
+
+.col.s4.collection {
+  padding: 0px;
+}
+
+div.col.s4.collection.fixdiv {
+  position: fixed;
+  top: 90px;
+}
+
+div.error {
+  color: red;
+}
+
+div.profilebody {
+  padding-top: 45px;
+}
+
+img.profileImg {
+  padding: 45px;
+}
+
+.collapsible p {
+  padding: 0px;
+}
+
+.collapsible-body {
+  height: auto;
+}
+
+.card {
+  margin-bottom: 0px;
+}
+
+.row.jobpost {
+  padding: 30px;
+}
+
+div.spacer {
+  padding: 0px 15px;
+}
+
+
+p.timepost {
+  font-size: 12px;
+  line-height: 12px;
+}
+
+div.container.bodycontainer.row {
+  background-color: #fff;
+}
